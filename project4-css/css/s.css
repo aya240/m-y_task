@@ -1,0 +1,162 @@
+body
+{
+	margin:0px;    /*to delete top space of page*/
+	padding:0px;
+
+
+}
+
+
+.fb
+{
+	background:url("../images/b.jpg") fixed;	 /* fixed background*/
+	background-size:100%;                   /*width=110% heught=100%*/
+
+}
+
+
+
+.header
+{
+
+	width:100%;
+	position: fixed;      /* make header fixed of all page */
+	background:#333 ;
+	border:1px solid;
+	padding:7px;
+}
+
+ul
+{
+	list-style:none; /* delete list style*/
+	margin:0px;
+	text-align:  right;    /* to put it to the right */
+
+}
+
+
+ul li
+{
+	display:inline-block;   /* change property of list make it inline-block */ 
+	margin-right:20px;            /* space between items in list(header) */
+}
+
+
+.home           /* word home in header*/ 
+{
+	background:#f0f;
+	float:left;          /*free item in left */
+	padding:5px;
+}
+
+	
+a
+{
+	text-decoration:none;   /* change property of link (delete underline of it)*/
+	color:#fff;
+	text-transform:capitalize;     /* make first letter of all words capital*/
+}
+
+
+a:hover         /*  when you point to link in header  it take background */ 
+{
+	background:#bbaaff;    
+}
+
+
+.basic      /* div consists of 3 div  */
+{
+	padding:70px;
+	background:#fff;
+	text-align:center;                     /* make words in center */   
+	text-transform:capitalize;            /* make first letter of all words capital*/
+}
+	
+
+.des     /*3 div take same class */
+{
+	border:2px solid #aabbaa;
+	padding:10px;
+	display:inline-block;             /* change property of div (as list)*/
+	color:#333;
+	width:300px;
+	height:300px;
+	line-height:2px;                 /* space between lines*/
+	margin-top: 10px;
+}
+
+
+img                   /*all pictures in 3 div */
+{
+
+	width:190px;
+	height:180px;
+}
+
+
+.des:hover img      /* when you point to div size of pic change */
+{
+
+	width:210px;
+	height:189px;
+}
+
+.dess             
+{
+	display:none;	   /*hidden pragraph in 3 div  */
+}
+
+
+.des:hover  .dess     /*appear pragraph when you point to any div ( 3 div)  */
+
+{
+	display:block;
+}
+
+
+
+.coo
+{
+	padding:180px;
+}
+
+
+.co
+{
+	background:#333;
+	color:#fff;
+	text-transform:uppercase;
+	padding:20px;
+}
+	
+	
+.footer
+{
+	padding:140px;
+
+}
+	
+
+.end
+{
+	padding:70px;
+	background:url("../images/a.jpg")  ;          /*width=110% heught=100%*/
+	background-size:100%;
+}
+	
+	
+	
+.p1
+{
+	background:rgba(30,100,70,0.4);         /* 0.4 opacity of background */
+	direction:rtl;                       /* show words (from right to left) */
+	padding:10px;
+	margin-bottom:10px;
+}
+
+	
+.p2
+{
+	background:rgba(10,30,70,0.4);                /* 0.4 opacity of background */
+	padding:10px;
+}

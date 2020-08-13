@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+   <head>
+	<meta charset ="utf.8">
+	<title>robot</title>
+	<style>
+		body
+		{
+			            background-size:1000px;
+
+		background-image:url("images/v.jpg");
+		margin:0px;
+		padding:0px;
+		font-family:Arial,Tahoma;
+                    }
+     .a
+		{
+		background:#333;
+		color:#bbaabb;
+		text-align:center;
+		font-size:27px;
+		margin:0px;
+		padding:0px;
+		height : 40px;
+
+		}
+		
+                    ol
+		{
+		list-style:none;
+		background:#000044;
+		padding:0px;
+		color:#333;
+		height :49px;
+		margin:0px;
+		text-align:center;
+
+		}
+		
+		
+		ol li
+		{
+		display: inline-block;
+		padding:20px;
+		}
+		#c , #d , #e , .q
+		{
+		border:1px solid;
+		padding:17px;
+		margin:44px;
+		width:1240px;
+		background:rgba(200,200,200, 0.7);
+
+			
+		}
+		#f
+		{
+		border:1px solid;
+		padding:17px;
+		margin-left:44px;
+		width:1240px;
+		background:rgba(200,200,200, 0.7);
+
+			
+		}
+		
+		
+		table
+		{
+		width:700px;
+		}
+
+		.code
+		{
+			border:1px solid;
+			padding:10px;
+			margin:10px;
+			background:#fff;
+			width:500px;
+
+			
+		}
+		
+		span
+		{
+		background:#333;
+		border:1px solid;
+		color:#fff
+		}
+		
+		.aa
+		{
+		background:#333;
+		color:#bbaabb;
+		text-align:center;
+		font-size:19;
+		margin:0px;
+		padding:0px;
+		height : 30px;
+		}
+	   fieldset
+		{
+		background:#fff;
+		}
+		textarea
+				{
+		background: #bab;
+		color: #fff;
+				}
+      a
+			{
+				color:#ddd;
+				text-decoration:none;
+			}
+
+			
+	</style>
+
+   </head>
+   <body >
+<!--head-->
+    <div class="a"> line follower robot</div>
+		<!--list to  show head content-->
+       <ol>
+	<li> 	<a href="#c"> Concepts </a>	</li>
+	<li> <a href="#d"> Componant</a>	</li>
+	<li> <a href="#e"> Programming</a>	</li>
+	<li> <a href="#f"> Simulation</a>	</li>
+	<li> <a href="https://www.facebook.com/facebooc2/"target="_blank"> Call us</a>	</li>
+     </ol>
+			 <!--Concepts-->
+     <div id="c">
+         <h2> Concepts of Line Follower</h2>
+	<p>
+	   Line follower Robot is a machine which follows a line,
+	   either a black line or white line. Basically there are two types of line follower robots:
+	   one is black line follower which follows black line and second is white line follower which follows white line.
+	   Line follower actually senses the line and run over it.
+          </p>
+	<p>Concept of working of line follower is related to light.
+	We use here the behavior of light at black and white surface.
+	When light fall on a white surface it is almost full reflected and in case of black surface light is completely absorbed.
+	This behavior of light is used in building a line follower robot.
+          </p>
+	<img src="https://circuitdigest.com/sites/default/files/inlineimages/Concept-of-White-Line-Follo.gif">
+	<img src="https://circuitdigest.com/sites/default/files/inlineimages/Concept-of-Black-Line-Follo.gif">
+	<p>In this arduino based line follower robot we have used IR Transmitters and
+	IR receivers also called photo diodes. They are used for sending and receiving light.
+	IR transmits infrared lights. When infrared rays falls on white surface, it’s reflected back and catched by photodiodes
+	which generates some voltage changes. When IR light falls on a black surface, light is absorb by the black surface and no
+	rays are reflected back, thus photo diode does not receive any light or rays.
+          Here in this arduino line follower robot when sensor senses white surface then arduino gets 1 as input and when senses black line arduino gets 0 as input.
+
+           </p>
+
+     </div>
+		 
+   <!--Componant-->
+        <div id="d">
+	<h2>Componant</h2>
+	<table>
+              <tr>
+		
+		<td> <img src="images/2.jpg"></td>
+		<td> <img src="images/33.jpg"></td>	
+		<td> <img src="images/22.jpg"></td>
+	   </tr>
+	  <tr>
+		<td>
+		L293D Motor Driver
+		
+		<br>
+		price:45&pound;<br>
+		<!-- mail to us-->
+		<a href="mailto:aya03308@gmail.com?subject=L293D Motor Driver& body=buy one">
+		<span>buy now</span>
+		</a>
+		
+		</td>
+		<td>
+		Arduino <br>
+		price:175&pound;<br>
+		
+		<a href="mailto:aya03308@gmail.com?subject=L293D Motor Driver& body=buy one">
+		<span>buy now</span>
+		
+		
+		</a>
+		
+		</td>
+		<td>
+		IR Module:
+		<br>
+		
+		
+		price:50&pound;<br>
+		
+		<a href="mailto:aya03308@gmail.com?subjectIR Module:& body=buy one">
+		<span>buy now</span>
+		</a>
+		
+		
+		</td>
+	   </tr>
+	</table>
+     </div>
+				
+				   <!--Programming-->
+     <div id="e">
+	<h2>Programming</h2>
+	<h3>code</h3>
+
+	<div class="code">
+	     <pre>
+/*------ Arduino Line Follower Code----- */
+/*-------definning Inputs------*/
+#define LS 2      // left sensor
+#define RS 3      // right sensor
+
+/*-------definning Outputs------*/
+#define LM1 4       // left motor
+#define LM2 5       // left motor
+#define RM1 6       // right motor
+#define RM2 7       // right motor
+
+void setup()
+{
+  pinMode(LS, INPUT);
+  pinMode(RS, INPUT);
+  pinMode(LM1, OUTPUT);
+  pinMode(LM2, OUTPUT);
+  pinMode(RM1, OUTPUT);
+  pinMode(RM2, OUTPUT);
+}
+
+void loop()
+{
+  if(digitalRead(LS) && digitalRead(RS))     // Move Forward
+  {
+    digitalWrite(LM1, HIGH);
+    digitalWrite(LM2, LOW);
+    digitalWrite(RM1, HIGH);
+    digitalWrite(RM2, LOW);
+  }
+  
+  if(!(digitalRead(LS)) && digitalRead(RS))     // Turn right
+  {
+    digitalWrite(LM1, LOW);
+    digitalWrite(LM2, LOW);
+    digitalWrite(RM1, HIGH);
+    digitalWrite(RM2, LOW);
+  }
+  
+  if(digitalRead(LS) && !(digitalRead(RS)))     // turn left
+  {
+    digitalWrite(LM1, HIGH);
+    digitalWrite(LM2, LOW);
+    digitalWrite(RM1, LOW);
+    digitalWrite(RM2, LOW);
+  }
+  
+  if(!(digitalRead(LS)) && !(digitalRead(RS)))     // stop
+  {
+    digitalWrite(LM1, LOW);
+    digitalWrite(LM2, LOW);
+    digitalWrite(RM1, LOW);
+    digitalWrite(RM2, LOW);
+  }
+}
+
+             </pre>
+	</div>
+     </div>
+		 
+		<!--Simulation-->
+     <div id="f">
+	<h2>Simulation</h2>
+	<img  style="width:1000px;" src="https://circuitdigest.com/sites/default/files/circuitdiagram_mic/Line-Follower-Robot-Circuit.gif">
+	
+    </div>
+		 
+		 <div class="q">
+			<fieldset>
+				<legend> <span> Quantionnaire</span> </legend>
+				Is the content useful?<br>
+				<input type="radio" name="a">yes<br>
+					<input type="radio" name="a">no<br>
+					<hr>
+					Did you find what you want?<br>
+						<input type="radio" name="a">yes<br>
+					<input type="radio" name="a">no<br>
+					<hr>
+         any comment......<br>
+				
+					<textarea rows="10" cols="49">
+					</textarea>
+					<br>
+				<input type="submit">
+								<input type="reset" value="delet">
+
+				
+				
+
+					
+
+
+			</fieldset>
+		 </div>
+		 
+		 
+	
+	<div class="aa">
+		
+		
+		copyrights&copy for am.com
+		
+		
+	</div>
+	
+   </body>
+
+</html>
