@@ -1,0 +1,207 @@
+body
+{
+margin:0px auto;
+padding:0px;
+}
+        /* style of head line */
+ .head 
+{
+	margin:0px;
+	padding:0px;
+	background:#22ffab;
+list-style:none;
+	direction:rtl;
+	position: fixed;
+	width: 100%;
+
+}
+ul li
+{
+	display:inline-block;
+	margin:18px;
+}
+a
+{
+	text-decoration:none;
+	color:#fff;
+}
+
+a:hover
+{
+	color:#01adf3;
+}
+
+.home
+{
+	background:#af1;
+	float:left;
+	text-transform:capitalize;
+	color:#fff;
+	padding:5px;
+}
+
+        /* float div in left  */
+.m , .mm , .aa
+{
+	position:fixed;
+	width:10%;
+	margin-left:-140px;
+	padding:10px;
+}
+
+.m
+{
+	background:#f00;
+	margin-top:100px;
+}
+
+.mm
+{
+	background:#0f0;
+	margin-top:149px;
+}
+
+
+.aa
+{
+	background:#00f;
+	margin-top:200px;
+}
+        /* float div in left  (hover) */
+.m:hover  , .mm:hover  ,  .aa:hover
+{
+	margin-left:0px;
+	transition-duration:1s
+
+}
+              /* sticky position  */
+.f
+{
+	padding:70px;
+}
+
+.f p
+{
+	background:#afa;
+	color:#fff;
+	padding:4px;
+	position:sticky;
+		top:70px;
+}
+
+.f ul 
+
+{
+	background:#fff;
+list-style:none;
+	direction:ltr;
+	color:#000
+}
+
+.f ul li
+{
+	display:block;
+}
+
+             /*overflow */
+.s
+{
+background:url("../images/b.jpg") fixed;
+background-size:100%;
+padding:140px;
+}
+
+
+.s p
+{
+	background:rgba(10,100,40,0.4);
+	padding:4px;
+	overflow:hidden;
+		height:10px;
+}
+
+.s p:hover 
+{
+overflow:visible;
+height:40px;
+transition-duration:1s
+}
+/* ????????????????? 8*/
+ .s:hover  p:after
+{
+	background:rgba(240,100,120,0.4);
+	content:"this is content";
+	padding:20px;
+	margin:10px 20px;
+	display:block;
+	float:left;
+	width:100%;
+	transition-duration:2s
+
+}
+
+              /*select */
+.ss
+{
+padding:50px;
+background:url("../images/a.jpg") fixed;
+background-size:100%;
+margin-top: 3px;
+}
+
+.ss > div
+{
+padding:20px;
+background:rgba(12,240,100,0.4);
+}
+
+.ss > div div
+{
+padding:10px;
+background:rgba(249,20,249,0.4);
+margin-top: 10px;
+}
+
+.ss > div p
+{
+padding:10px;
+background:rgba(249,220,10,0.4);
+}
+
+.as p:hover ~p
+{
+background:rgba(249,249,249,0.4);
+}
+
+                /*  first-line  first-letter*/
+
+.e
+{
+padding:100px;
+background:url("../images/c.JFIF ") fixed;
+background-size:100%;
+margin-top: 3px;
+}
+
+.e p
+{
+padding:30px;
+background:rgba(200,200,200,0.4);
+}
+
+.e p:first-letter
+{
+text-transform: capitalize;
+background:#f00;
+border-radius:8px;
+padding:4px;
+font-size:40px; 
+		
+}
+
+.e p:first-line
+
+{
+background:rgba(0,0,0,0.4);
+}
+
