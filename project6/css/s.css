@@ -1,0 +1,275 @@
+           /*----------- start body----------------*/
+body
+{
+direction:rtl;
+text-align:right;
+border:40px solid transparent;
+border-image:url(../images/ba.jpeg) 70 stretch ;
+background:rgba(200,100,0,0.4);
+}
+                  /* ---------------end body------------*/
+
+           /*----------- start header----------------*/
+.header .photo
+{
+height:200px;
+background:url("../images/baa.jpeg") no-repeat;
+background-size:100% 100%;
+margin:0;
+padding:0
+ }
+
+.header .h
+{
+margin:0px;
+padding:0;
+background:rgba(200,100,0,0.8);
+overflow: hidden;
+width: 100%;
+}
+
+.header .h ul{list-style: none;}
+
+.header .h ul li
+{
+display:  inline-block;
+padding:4px;
+float: left;
+font-size: 20px;
+margin-left: 17px;
+}
+
+.header .h ul li a
+{
+text-decoration: none;
+color:#fff;
+}
+
+.header .h ul li a:hover{color:#000;}
+
+.home
+{
+background:#84613B;
+float: right}
+
+.home span{color:#fff;}
+           /*----------- end header----------------*/
+
+            /*----------- start definition----------------*/
+
+.def
+{
+padding:70px;
+overflow: hidden;
+}
+
+.def .basic
+{
+width: 47%;
+float: right
+}
+
+.def .pic
+{
+width: 50%;
+float: left;
+}
+
+.def .pic img
+{
+width:499px;
+height: 200px
+}
+
+             /*----------- end definition----------------*/
+             /*----------- start information----------------*/
+.info
+{
+padding:10px;
+overflow: hidden;
+}
+
+.info .edu
+{
+width: 47%;
+float: right
+}
+
+.info .edu ol {background:rgba(200,100,0,0.4);}
+
+
+.info .edu ol >li
+{
+background:rgba(200,100,0,0.49);
+margin-bottom: 7px;
+}
+
+.one >li   {
+background:rgba(100,100,0,0.43);
+margin-bottom: 7px;
+width: 90%;
+}
+
+.oo
+{
+width: 50%;
+height: 200px;
+float: left;
+background:rgba(100,100,0,0.43);
+text-align: center;
+margin-top:40px;
+padding:70px 0px 0px 0px;
+border-radius:200px;
+box-shadow: 10px 10px 7px#222;
+color:#fff;
+font-size: 90px;
+}
+             /*----------- end information----------------*/
+             
+                    /*----------- start login----------------*/
+.login
+{
+overflow: hidden;
+padding:30px;
+}
+
+.boys
+{
+float: right;
+width: 47%;
+border:2px dotted ;
+}
+
+.boys span
+{
+font: 20px bold;
+color:    #fff;
+background:#990;
+:
+}
+
+.boys input
+{
+width: 40%;
+background:rgba(100,100,0,0.9);
+color:#fff;
+border:1px;
+}
+
+.boys .s
+{
+width: 100px;
+background:none;
+box-shadow:5px 5px rgba(100,100,0,0.9);
+border:1px solid  rgba(100,100,0,0.9);
+color:#000;
+font-size: 18px;
+}
+
+.boys .s:hover{background:rgba(100,100,0,0.3);}
+
+.girls
+{
+float: left;
+width: 50%;
+border:2px dotted ;
+}
+
+.girls span
+{
+font: 20px bold;
+color:    #fff;
+background:rgba(200,100,0,0.8);
+:
+}
+
+.girls input
+{
+width: 40%;
+background:rgba(210,100,0,0.8);
+color:#fff;
+border:1px;
+}
+
+.girls .s
+{
+width: 100px;
+background:none;
+box-shadow:5px 5px rgba(210,100,0,0.8);
+border:1px solid  rgba(210,100,0,0.8);
+color:#000;
+font-size: 18px;
+}
+
+.girls .s:hover{background:  rgba(210,100,0,0.3);}
+                    /*----------- end login----------------*/
+                    
+                 /*------------- start contact----------------*/
+.con{padding:30px;}
+
+.con a
+{
+text-decoration: none;
+color:#000;
+display: block;
+}
+
+.con a:hover
+{
+color:#f00;
+padding:10px;
+}
+
+qu
+{
+padding:10px;
+margin-top: 10px;
+}
+ 
+.qu .s
+{
+width: 100px;
+background:none;
+box-shadow:5px 5px rgba(210,100,0,0.8);
+border:1px solid  rgba(210,100,0,0.8);
+color:#000;
+font-size: 18px;
+}
+
+.qu .s:hover{background:  rgba(210,100,0,0.3);}
+
+.final
+{
+background:  rgba(210,100,0,0.7);
+color:#fff;
+text-align: center;
+overflow: hidden;
+}
+
+                /*-------------- end contact---------------------*/
+
+
+ 
+p
+{
+ margin-right: 10px;
+ font-size: 17px;
+}
+.container
+{
+width:1170px;
+margin:auto;
+}
+
+hr
+{
+ color:rgba(200,100,0,0.7);
+ height: :4px;
+}
+
+
+label ,input
+{
+ display: block;
+ margin:9px;
+}
