@@ -1,0 +1,86 @@
+body
+{
+background:url("../img/b.jpg") fixed no-repeat;
+background-size:100% 100%;
+perspective:600px;
+}
+
+.a
+{
+	width:700px;
+	margin:70px  auto;
+	padding:20px;
+	background:rgba(100,30,100,0.7);
+	text-align:center;
+	box-shadow:4px 4px 7px 7px  #303,
+	-4px -4px 7px 7px #700;
+}
+
+.am
+{
+	background:rgba(250,10,100,0.4);
+	padding:4px;
+	margin-bottom:30px;
+
+}
+
+
+span
+{
+	background-image:linear-gradient(90deg,#f00,#00f);
+	padding:4px;
+	border:1px solid ;
+	border-radius:30px 0px 30px 0px;
+	padding:7px;
+}
+
+
+
+.ma 
+{
+	text-align:center;
+	padding:100px;
+		margin-bottom:30px;
+
+}
+
+.ma img
+{
+	width:80px;
+	height:80px;
+	border-radius:50%;
+	border:2px solid #90f;
+	box-shadow:4px 4px 4px 4px #90f,
+	-4px -4px 4px 4px #90f;
+}
+
+
+.ma img:hover
+{
+	transform:scale(1.7,1.7)  rotate(360deg);
+	transition:all 1s;
+}
+
+
+
+.as 
+{
+background:rgba(40,0,20,0.4);
+padding:10px;
+overflow:hidden;
+}
+
+
+
+.as img
+{
+	width:200px;
+	height:200px;
+}
+
+
+.as:hover img
+{
+	transform:scale3d(1.4,1.8,2)  translate3d(200px,-30px,40px);
+	transition:all 1s;
+}
