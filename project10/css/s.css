@@ -1,0 +1,179 @@
+body
+{
+background:url("../img/b.jfif") fixed no-repeat;
+background-size:100% 100%;
+perspective: 600px;
+}
+/* ----------------- begin resize flex -box-------------*/
+.p
+{
+background:rgba(0,0,20,0.4);
+}
+
+.pp
+{
+background:#aaa;
+padding:10px;
+box-shadow:4px 4px 4px 4px #ff00aa,
+-4px -4px 4px 4px #aa00ff;
+min-width:180px;
+width: 200px;
+white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+margin:10px auto;
+border-radius: 10px;
+resize: horizontal;
+margin-bottom: 30px;
+}
+
+.ppp
+{
+background:#aaa;
+box-shadow:4px 4px 4px 4px #ff00aa,
+-4px -4px 4px 4px #aa00ff;
+margin:10px auto;
+border-radius: 10px;
+width: 400px;
+resize: horizontal;
+display: flex;
+flex-wrap: nowrap;
+overflow: hidden;
+min-width: 400px;
+}
+
+.ppp >div
+{
+width: 30px;
+background:#a0a;
+margin: 10px;
+padding:10px;
+border:1px solid;
+}
+/* ----------------- end resize flex -box-------------*/
+
+/* ----------------- begin opacity-------------*/
+
+.opacity
+{
+padding:30px;
+background:rgba(0,20,20,.88);
+text-align: center;
+margin-bottom: 40px;
+}
+
+.opacity img
+{
+width: 290px;
+height: 300px;
+transform:rotatey(180deg)
+}
+
+.opacity .m
+{
+border-radius: 100px 0px 0px 100px;
+opacity: 0;
+transform:translate3d(380px,0px,-800px);
+transition:all 1s ease-in-out;
+}
+
+.opacity .a
+{
+transform:translatex(149px);
+transition:all 1s ease-in-out;
+}
+
+.opacity:hover .m
+{
+opacity: 1.0;
+transform:translate3d(0px,0px,0px);
+transform:rotatey(180deg);
+}
+
+.opacity:hover .a
+{
+border-radius: 0px 100px 100px 0px ;
+transform:translatex(0px);
+transform:rotatey(180deg);
+}
+/* ----------------- end opacity-------------*/
+
+
+/* ----------------- begin flip carrd-------------*/
+
+.card
+{
+text-align: center;
+padding:30px;
+background:rgba(0,2,30,0.7)
+}
+
+
+.card>div
+{
+width: 200px;
+height: 270px;
+border:1px solid #000;
+display: inline-block;
+position: relative;
+transition:all 1s ease-in-out;
+text-align: left;
+transform-style: preserve-3d
+}
+
+
+.card div>img{
+width: 200px;
+height: 270px;
+position: absolute;
+
+}
+
+
+.aa
+{
+z-index: 2;
+backface-visibility: hidden;
+
+}
+
+
+.mm
+{
+z-index: 1;
+transform:rotatey(180deg);
+}
+
+
+.card>div:hover
+{
+transform:rotatey(180deg);
+}
+/* ----------------- end flip carrd-------------*/
+
+
+/* ----------------- begin column------------*/
+.column
+{
+background:rgba(22,12,200,0.4);
+padding:30px;
+}
+
+
+.column div
+{
+background:#ddd;
+box-shadow: 2px 2px 2px 2px #999,-2px -2px 2px 2px #999;
+padding:10px;
+width: 700px;
+resize: horizontal;
+font-size: 20px;
+overflow: hidden;
+-webkit-columns: 100px 4;
+-webkit-column-gap:10px;
+-webkit-column-rule:2px dashed #f00;
+margin:30px auto;
+
+}
+/* ----------------- end column------------*/
+
