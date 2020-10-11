@@ -1,0 +1,38 @@
+
+#a
+{
+    margin:100px auto;
+    background:#f00;
+        text-align:center;
+    padding: 20px ;
+        width: 49%;
+}
+
+p
+{
+    padding:10px;
+    border:1px solid #000;
+    border-radius:20px;
+    background:#ddd;
+        width: 70%;
+    margin: 30px auto;
+    font-size: 20px;
+}
+
+
+.a
+{
+    margin-top: 70px;
+}
+
+
+
+button
+{
+background:linear-gradient(180deg, #f00 , #ff0);
+width: 80px;
+    height: 40px;
+        font-size: 20px;
+
+    color:#fff;
+}
