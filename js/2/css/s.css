@@ -1,0 +1,47 @@
+.a
+{
+    margin:100px auto;
+    background:#f00;
+        text-align:center;
+    padding: 20px ;
+        width: 49%;
+    border-radius: 20px;
+}
+
+p
+{
+    padding:10px;
+    border:1px solid #000;
+    border-radius:20px;
+    background:#ddd;
+        width: 70%;
+    margin: 30px auto;
+    font-size: 20px;
+}
+
+div
+{
+    margin-bottom: 30px;
+}
+
+label{
+background:#091;
+    color:#fff;
+    padding:7px;
+    border:1px solid #000;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+
+button
+{
+background:linear-gradient(120deg, #777 , #222);
+width: 49px;
+    height: 40px;
+        font-size: 20px;
+box-shadow: 4px 4px 4px 4px #fff,
+    -4px -4px 4px 4px #fff;
+    color:#fff;
+    border-radius: 100%;
+}
