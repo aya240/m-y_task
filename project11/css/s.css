@@ -1,0 +1,302 @@
+/*-------------------begin body----------------*/
+body
+{
+margin:0px auto;
+padding:0px;
+background:url("../img/bb.jpg") fixed;
+background-size: 100% 100%;
+
+}
+/*-------------------end body----------------*/
+
+/*-------------------begin head----------------*/
+
+ul 
+{
+list-style: none;
+background:#fef;
+margin:0px;
+padding:0px;
+text-align:right;
+
+}
+
+
+ul li
+{
+display: inline-block;
+padding:10px;
+}
+
+
+.home
+{
+background:#f0f;
+float: left
+}
+
+
+.home:hover
+{
+background:#f0f;
+cursor: pointer;
+}
+
+ul li:hover
+{
+background:#fdf;
+cursor: pointer;
+}
+/*--------------------begin media head------------*/
+
+.book
+{
+display:none;
+}
+
+ol
+{
+list-style: none;
+background:#fef;
+position: absolute;
+right: 4px;
+width: 130px;
+
+}
+
+@media screen and (max-width:480px)
+{
+ul>li , ol>li
+{
+display: none;
+}
+.home
+{
+display:inline-block;
+}
+
+.book
+{
+display:inline-block;
+
+
+}
+
+
+
+.book:hover ol>li
+{
+display:block;
+
+}
+}
+/*-----------------end media head----------------------------*/
+
+
+/*-----------------error-------------
+label
+{
+position: relative;
+display: inline-block;
+width: 60px;
+height: 34px;
+display:none;
+}
+input {
+opacity: 0;
+width: 0;
+height: 0;
+}
+.slider {
+position: absolute;
+cursor: pointer;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background-color: #ccc;
+-webkit-transition: .4s;
+transition: .4s;
+}
+.slider:before 
+{
+position: absolute;
+content: "";
+height: 26px;
+width: 26px;
+left: 4px;
+bottom: 4px;
+background-color: white;
+-webkit-transition: .4s;
+transition: .4s;
+}
+input:checked + .slider {
+background-color: #2196F3;
+}
+input:focus + .slider {
+box-shadow: 0 0 1px #2196F3;
+}
+input:checked + .slider:before {
+-webkit-transform: translateX(26px);
+-ms-transform: translateX(26px);
+transform: translateX(26px);
+}
+@media (max-width:480px)
+{
+ul > li
+{
+display: none;  
+}
+ol > li
+{
+display: none;  
+}
+.home
+{
+display: inline-block;
+}
+label
+{
+display: inline-block;
+}
+input:checked .s
+{
+display: block;
+}
+}
+--------------------------------------------*/  
+/*-----------------end head ---------------------------*/  
+
+
+/*-----------------begin media img ---------------------------*/  
+.b
+{
+width: 30%;
+height: 499px;
+background:url("../img/b.png") no-repeat;
+background-size: 100% 100%;
+margin:49px auto;
+margin-top: 100px;
+
+}
+
+@media only screen and (max-width:1200px)
+
+{
+.b
+
+{
+
+background:url("../img/b.png") no-repeat;
+background-size: 100% 100%;
+}
+
+}
+
+@media only screen and (max-width:768px)
+{
+.b
+
+{
+background:url("../img/m.png") no-repeat;
+background-size: 100% 100%;
+}
+}
+
+@media  only screen and (max-width:480px)
+
+{
+.b
+
+{
+background:url("../img/s.png") no-repeat;
+background-size: 100% 100%;
+}
+}
+/*-------------------------end media img-----------------*/
+
+/*--------------begin fan-----------*/
+
+.f{
+background:url("../img/cc.jpg");
+background-size: 100% 100%;
+padding:20px;
+}
+
+.ff{
+margin:49px auto;
+background:url("../img/2.png")  no-repeat;
+
+width: 200px;
+height: 200px;
+background-size: 100% ;
+}
+
+.ff:hover{
+animation: b .3s infinite ease-in-out ;
+}
+
+@keyframes b {
+0%{
+transform: rotate(0deg);
+background:url("../img/2.png")  no-repeat;
+
+background-size: 100% ;
+}
+
+
+20%{
+transform: rotate(36deg);
+background:url("../img/3.png")  no-repeat;
+background-size: 100% ;
+}
+
+40%{
+transform: rotate(72deg);
+background:url("../img/4.png")  no-repeat;
+
+background-size: 100% ;
+}
+
+60%{
+transform: rotate(108deg);
+background:url("../img/44.png")  no-repeat;
+
+background-size: 100% ;
+}
+
+80%{
+transform: rotate(144deg);
+background:url("../img/444.png")  no-repeat;
+
+background-size: 100% ;
+}
+
+100%{
+transform: rotate(180deg);
+background:url("../img/2.png")  no-repeat;
+
+background-size: 100% ;
+}
+}
+---------------end fan---------------*/
+
+
+---------------begin -font family---------------*/
+.a
+{
+background:#222;
+text-align: center;
+font-family: 'Chilanka', cursive;
+height: 100px;
+color:#fff;
+font-size: 40px; 
+margin:49px auto;
+height: 290px;
+}
+/*------------------end -font family---------------*/
+
+
+
+
+
