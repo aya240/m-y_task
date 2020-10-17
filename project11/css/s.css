@@ -279,16 +279,15 @@ background:url("../img/2.png")  no-repeat;
 background-size: 100% ;
 }
 }
----------------end fan---------------*/
+/*---------------end fan---------------*/
 
 
----------------begin -font family---------------*/
+/*---------------begin -font family---------------*/
 .a
 {
 background:#222;
 text-align: center;
 font-family: 'Chilanka', cursive;
-height: 100px;
 color:#fff;
 font-size: 40px; 
 margin:49px auto;
