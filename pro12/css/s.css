@@ -1,0 +1,554 @@
+/*-------------------------- begin body-----------------------*/
+body
+{
+    padding:0px;
+    margin:0px auto;
+    direction: rtl;
+background-size:100% 100%;
+background:#999
+}
+
+ a
+{
+   text-decoration: none;
+}
+
+
+::selection
+{
+    background:#fff;
+    color:#000;
+}
+
+/*-------------------------- end body-----------------------*/
+
+/*-------------------------- begin head-----------------------*/
+.head
+{
+    list-style: none;
+    background:#444;
+    margin:0px;
+padding:10px ;   
+    font-size:14px; 
+    text-align: left;
+}
+
+
+.head > li
+{
+    display: inline-block;
+    padding:10px;
+}
+
+
+
+.home
+{
+    float: right;
+    background:#900;
+        color:#fff;
+}
+
+.search
+{
+        color:#fff;
+float: right;
+margin-right:400px;
+}
+
+
+input
+{
+    width: 400px;
+    border-radius: 10px;
+}
+
+
+.ex
+{
+list-style: none;
+    position: absolute;
+    background:#444;
+    padding:10px;
+    width: 80px;
+    text-align: right;
+    display: none;
+}
+
+
+.ex > li
+{
+        margin-bottom: 10px
+
+}
+
+
+.hover:hover ul
+{
+    display:block;
+}
+
+
+ .head a
+{
+    color:#fff;
+}
+
+
+ .head a:hover
+{
+    color:#f00;
+
+}
+/*-------------------------end ead----------------------*/
+/*----------------
+.m , .mm , .aa
+{
+	position:fixed;
+	width:10%;
+	margin-right: -140px;
+	padding:10px;
+}
+
+.m
+{
+	background:#f00;
+	margin-top:100px;
+}
+
+.mm
+{
+	background:#0f0;
+	margin-top:149px;
+}
+
+
+.aa
+{
+	background:#00f;
+	margin-top:200px;
+}
+       
+.m:hover  , .mm:hover  ,  .aa:hover
+{
+	margin-right:0px;
+	transition-duration:1s
+
+}
+----------------------*/
+/*---------------------------begin welcome------------------*/
+.a
+{
+    width:20%;
+    margin:100px auto;
+    background-image:linear-gradient(120deg, #232,#900, #444);
+    text-align:center;
+        height:300px;
+                border-radius:20px ;
+                position:relative;
+padding:20px
+
+}
+
+.a img
+{
+    width:100px;
+    height:100px;
+        border-radius:100% ;
+        position:absolute;
+       transform:translate(40px,-49px)
+}
+
+
+.a h1
+{
+   color:#fff;
+          transform:translate(0px,70px)
+}
+
+
+.a p
+{
+   color:#ddd;
+   text-align:right;
+          transform:translate(0px,70px)
+}
+
+
+.a a:hover
+{
+   color:#990;
+}
+/*---------------------------end welcome------------------*/
+
+/*-------------------------begin islamic book--------------------*/
+
+
+#is 
+{
+    border:2px solid #444;
+    border-radius: 40px;
+    padding:40px;
+    background:url("../img/3.jpg") fixed no-repeat;
+    background-size:100% 100% ;
+    box-shadow: 3px 3px 2px 2px #111;
+    perspective: 700px;
+
+}
+
+
+#is > div
+{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    border:3px solid #444;
+    overflow: hidden;
+    transform-style: preserve-3d;
+    display: inline-block;
+    margin-right:200px;
+    margin-bottom: 20px;
+}
+
+
+.ff
+{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+   z-index:2;
+                    transition: all 2s ease-in-out;
+
+}
+
+
+
+.f:hover .ff
+{
+    transform: translatez(499px) rotatey(90deg)
+}
+
+
+.fff
+{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+   z-index:1;
+    background: #ddd;
+    padding:10px;
+}
+
+#is a:hover
+{
+    color:#090;
+}
+
+/*-------------------------end islamic book--------------------*/
+
+/*--------------------------begin human development books------------*/
+
+
+#hu
+{
+    border:2px solid #444;
+    padding:40px;
+    color:#fff;
+    margin:200px auto;
+     background:url("../img/2.jpg") fixed no-repeat;
+    background-size:100% 100% ;
+    border-radius: 40px;
+    box-shadow: 2px 2px 7px 7px #111;
+}
+
+
+table
+{
+margin:40px auto;
+border:1px solid #444;
+    border:1px solid #444;
+box-shadow: -1px -1px  4px #111;
+    padding:20px;
+    border-radius: 70px;
+    background:rgba(70,70,70,0.8)
+}
+
+
+table td
+{
+    padding:10px;
+margin-bottom: 20px
+}
+
+.s
+{
+overflow: hidden;
+background:rgba(40,40,40,0.9);
+border-bottom:1px solid #000;
+    border-right:1px solid #000;
+     box-shadow: 1px 1px 4px  #000;
+     width: 240px;
+    height: 400px;
+    display: inline-block;
+                                transition: all 1s ease-in-out;
+margin-left:100px ;
+}
+
+
+.ss
+{
+width: 73%;
+float: left;
+}
+
+
+.ss a
+{
+color:#f0f;
+}
+
+.ss a:hover
+{
+color:#ff0;
+}
+
+q{
+color:#f0f;
+}
+
+
+.s img 
+{
+    width: 240px;
+    height: 400px;
+}
+
+
+.s:hover img 
+{
+
+    transform: translate(-3px,3px);
+    float: right;
+width: 24%;
+}
+
+
+td:hover .s
+{
+    width: 90%;
+}
+
+/*--------------------------end human development books------------*/
+
+/*--------------begin eng books------------------------------------*/
+#eng
+{
+    background:url("../img/33.jpg") fixed no-repeat;
+    background-size:100%;
+    padding:40px;
+    border:1px solid #444;
+    border-radius:40px;
+    box-shadow: 2px 2px 4px 4px #111;
+    margin-bottom:70px;
+    color:#fff;
+        perspective: 700px;
+        text-align:center
+}
+
+.h
+{
+    display:inline-block;
+    overflow:hidden;
+    background:rgba(40,40,40,0.9);
+        width:249px;
+    height:300px;
+    margin-bottom:20px;
+    margin-left:30px;
+            text-align:right;
+               transition: all 1s ease-in-out;
+
+}
+
+.h:hover
+{
+     width:70%;
+      border:1px solid #444;
+    border-radius:40px;
+    box-shadow: 2px 2px 4px 4px #111;
+}
+
+.h  img
+{
+    width:249px;
+    height:300px;
+        
+
+}
+
+
+.h:hover img
+{
+    float:right;
+    width:20%;
+}
+
+.hh
+{
+    float:right;
+    width:70%;
+    margin-right:5%
+}
+
+#eng a:hover
+{
+    color:#aa0
+}
+/*---------more--------------------------*/
+.m
+{
+    display:inline-block;
+    position:relative;
+     width:249px;
+    height:300px;
+    overflow:hidden;
+    border-radius:40px;
+                text-align:right;
+
+}
+
+.mm
+{
+    position:absolute;
+    z-index:2;
+               transition: all 1s ease-in-out;
+}
+
+.mmm
+{
+        position:absolute;
+   z-index:1;
+    background:#aaa;
+    width:100%;
+    height:100%;
+    color:#000;
+    padding:20px
+    
+}
+
+
+.mm img
+{
+     width:249px;
+    height:300px;
+}
+
+.m:hover .mm
+{
+    opacity:0;
+        transform: scale(0.1, 0.1);
+}
+
+/*------------------------end eng books----------------------*/
+
+.qu
+{
+ width:30%;
+ margin:70px auto;
+ border:1px solid #444;
+  height:400px;
+  animation: back infinite 10s ease-in-out;
+    background-image: linear-gradient(0deg ,#800, #a00 , #444 );
+    color:#ddd;
+    border-radius: 40px;
+    box-shadow: 2px 2px 2px 2px #111;
+    padding:20px
+
+
+}
+
+
+@keyframes back
+{
+ 
+ 0%
+ {
+  background-image: linear-gradient(0deg ,#f00, #444);
+ }
+ 
+ 
+ 45%
+ {
+  background-image: linear-gradient(90deg , #800 , #444 );
+ }
+ 
+ 
+ 90%
+ {
+  background-image: linear-gradient(180deg , #d00 , #777 );
+ }
+ 
+ 
+ 
+ 135%
+ {
+  background-image: linear-gradient(270deg , #200 , #777  );
+ }
+ 
+ 
+ 180%
+ {
+  background-image: linear-gradient(360deg , #900 , #888  );
+ }
+ 
+ 
+ 
+}
+
+
+
+.qu img
+{
+ width:10%;
+ height:20%;
+ border-radius: 1000%;
+ position: absolute;
+ transform: translate(-138px,-49px)
+}
+
+
+.qu h3
+{
+ margin-top: 70px;
+ text-align:center
+}
+
+.qu input 
+{
+ width: 30%;
+}
+
+
+#b
+{
+ display: block;
+  margin:10px auto;
+background:#333;
+color:#fff;
+border-radius: 10px;
+ width: 20%;
+
+
+}
+
+
+
+ #aq
+{
+ width: 70%;
+ height: 20px;
+ background:#fff;
+ color:#000;
+ border-radius:10px;
+ margin:10px auto;
+ padding:7px
+}
