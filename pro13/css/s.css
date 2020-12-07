@@ -2,7 +2,6 @@ body
 {
 	margin:0 auto;
 	padding:0px;
-	background:#ddd;
 }
 /*--------------------------begin header--------------------------------*/
 .head
@@ -45,7 +44,7 @@ body
 /*--------------------------end header--------------------------------*/
 
 /*--------------------------begin div add--------------------------------*/
-.f , .w
+.first  
 {
 text-align:center;
 background:#909;
@@ -57,7 +56,7 @@ background:#909;
 	margin-right:100px;
 	padding:30px
 }
-#one , #two
+#n1 , #n2
 {
 	display:block;
 margin:40px auto;
@@ -71,12 +70,12 @@ margin:40px auto;
 	font-size:14px;
 	height:17px;
 }
-.ff , .ww
+.add  , .choose
 {
 	float:left;
 	width:49%;
 }
-.fff
+.right
 {
 	width:40%;
 	font-size:20px;
@@ -88,7 +87,7 @@ margin:40px auto;
 
 	
 }
-#add
+.add button
 {
 	width:70px;
 	background:#9a99f9;
@@ -97,8 +96,9 @@ margin:40px auto;
 }
 /*--------------------------end div add--------------------------------*/
 
+/*--------------------------begin div picture--------------------------------*/
 
-.www
+#picture
 {
 	float: right;
 	width: 300px;
@@ -106,27 +106,95 @@ margin:40px auto;
 	background:#fff
 }
 
-
-.ww input
+.choose input
 {
 	display: block;
 	width: 80%;
 		margin: 30px auto
-
 }
 
-.ww button
+.choose button
 {
 	display: block;
 	width: 30%;
 	margin: 30px auto
 }
 
+/*--------------------------begin div picture--------------------------------*/
 
+.third
+{
+	background:#909;
+	border:1px solid #ddd;
+	border-radius:40px;
+	overflow:hidden;
+	margin:100px auto;
+	margin-left:100px;
+	margin-right:100px;
+	padding:30px;
+	text-align: left;
+}
 
+#arr li    
+{
+	background:#fff;
+	width: 40%;
+	margin-bottom: 20px;
+	border-radius: 40px;
+	font-size: 20px;
+	padding:8px;
+}
 
+#az
+{
+		width: 30%;
+		border-radius: 40px;
+		margin-left: 30%;
+	border-radius: 40px;
+	padding:8px;
+}
 
+.aq     
+{
+	display: block;
+			margin-left: 44%;
+					margin-top: 20px;
+					font-size: 17px;
+					width: 100px;
+					background:#f00;
+					background-image: linear-gradient(#ddd , #222);
+}
 
+#so
+{
+	width: 30%;
+	overflow:hidden;
+}
+
+#soo , #sa , #sx{
+	background:#ddd;
+	border-radius: 10px;
+}
+
+#asa li
+{
+	border-radius: 10px;
+	background:#dad;
+	width: 30%;
+	margin-bottom: 10px;
+}
+
+ #sx
+	{
+	width: 30%;
+}
+
+#an
+{
+		margin-left: 34%;
+	width: 30%;
+	border-radius: 10px;
+}
 
 footer
 {
@@ -134,4 +202,26 @@ footer
 	padding:30px;
 	background:#222;
 	color:#fff;
+}
+
+h1
+{
+	text-align: center;
+	animation: hold 2s ease-in-out infinite;
+}
+
+@keyframes hold
+{
+	from
+	{
+		color:#000;
+		transform: scale(1,1);
+		
+	}
+	to
+	{
+		color:#900;
+				transform: scale(1.7,1);
+
+	}
 }
