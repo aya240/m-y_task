@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     <meta charset="UTF-8">
+     <title>revision pro14</title>
+      <link rel="stylesheet" href="css/s.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/solid.min.css">
+   <link rel="stylesheet" href="css/brands.min.css">
+  </head>
+  <body>
+	<!----------------- begin head--------------->
+     <ul class = "header">
+	<li class="home">home</li>
+	<li class="search"><input type="search"  placeholder="search"><button>search</button></li>
+	<li><i class="fab fa-twitter"></i></li>
+	<li><i class="fab fa-google-plus-g"></i></li>
+	<li><i class="fab fa-facebook"></i></li>
+     </ul>	
+	<!----------------- end head--------------->
+	
+	<!--------------- begin 3 fixed divs ------->
+      <div class="b">facebook</div>
+      <div class="g">whatsapp</div>
+      <div class="r">google</div>
+      <!------------------ end 3 fixed divs------------>
+      
+      <!------------------ begin add div -------------->
+      <div class="add">
+	<p>type number 1</p>
+	<input type="text" placeholder="num1" id="num1"/>
+	<p>type number 2 </p>
+	<input type="text" placeholder="num2" id="num2"/>
+	<p id ="total">the plus of them is:</p>
+	<button onclick="add()">add</button>
+      </div>
+      <!------------------ end add div -------------->
+      
+      <hr>
+      
+      <!------------------ begin prompt div -------------->
+      
+      <div id="prompt">
+	<button onclick="pp()">prompt</button>
+      </div>
+      <!------------------ end prompt div -------------->
+            <hr>
+
+      <!------------------ begin date div -------------->
+
+      <div class="dd">
+       <div id="date">
+        	<button onclick="time()">tell me time on click</button>
+       </div>
+       	<hr>
+        <div id="s">
+       <input id="as" type="text" onkeypress="aa()" />
+       <span id="qq"></span>
+        </div>
+      <hr>
+      <input type="color">
+      <button>hover to change background color</button>
+      </div>
+       <!------------------ end date div -------------->
+     
+      <hr>
+      <div class="add" id="zx">
+	<input type="text" id="f">
+	<p class="vv">choose number of element to store(max is 19)</p>
+	<button onclick="fun()">make array</button>
+      </div>
+      
+	
+	<!--           library of js   -->
+	<script src="js/brands.min.js"></script>
+	<script src="js/fontawesome.min.js"></script>
+	  <script src="js/solid.min.js"></script>
+	  <script src="js/j.js"></script>
+ </body>
+</html>
