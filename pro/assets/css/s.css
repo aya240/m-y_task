@@ -1,0 +1,150 @@
+/*------------- begin navbar ----------*/
+#header .logo a  , .section-title p ,
+.section-title , .nav-menu .active > a ,
+.mobile-nav a:hover, .mobile-nav .active > a,
+.mobile-nav li:hover > a  , 
+{
+	color:#c10000;
+}
+
+#header  , #hero .carousel-indicators li
+{
+background:#eee;
+}
+
+
+.nav-menu a ,.nav-menu li  , .icofont-navigation-menu:before ,
+.mobile-nav a , .nav-menu .drop-down ul li a
+{
+	color:#444 ;
+}
+
+.nav-menu a:hover, .nav-menu li:hover > a 
+{
+	color:#c10000 !important;
+}
+
+#hero .btn-get-started
+{
+	color:#eee;
+	background:#c10000;
+}
+
+#hero .btn-get-started:hover
+{
+	color:#dedede;
+	background:#ff4949;
+}
+#hero .carousel-indicators li.active
+{
+	background:#c10000 ;
+}
+/*--------------- end navbar------------*/
+
+.p
+{
+	margin-top:10px;
+}
+
+.ri-check-double-line:before
+{
+	color:#c10000;
+	float:  right;
+	direction: rtl !important;   /*------problem---------*/
+}
+
+
+
+
+.section-title  , .pt-4, .py-4 , #about , .card-body
+{
+text-align:right;
+direction: rtl;
+}
+
+
+.about .content .btn-learn-more
+{
+	color:#c10000;
+	border-color:#c10000;
+	
+}
+
+.about .content .btn-learn-more:hover
+{
+	color:#eee;
+	background:#c10000;
+	
+}
+
+
+
+.services .icon-box , .services .icon-box .icon:hover
+{
+	color:#c10000;
+	
+}
+
+
+
+.services .icon-box:hover , .services .icon-box .icon{
+	color:#eee;
+	background:#c10000;
+	
+}
+
+
+
+
+.card-body
+{
+	color:#c10000;
+	
+}
+
+
+.aa i
+{
+font-size: 34px;
+}
+
+/*----------------*/
+
+#footer , #footer .footer-top .social-links a
+{
+	background:#c10000;
+	
+}
+
+#footer .footer-top .footer-info  , .back-to-top i:hover
+
+{
+	background:#ff4949;
+	
+}
+
+#footer .copyright
+{
+	border-color:#ff4949;
+	
+}
+
+#footer .footer-top .social-links a:hover 
+{
+	background:#444;
+	
+}
+
+.bx-chevron-right:before , #footer .footer-top .footer-links ul a:hover
+
+{
+	color:#444;
+	
+}
+
+  .back-to-top i , #footer .footer-top .footer-newsletter form input[type="submit"]
+
+{
+	background:#444;
+	
+}
